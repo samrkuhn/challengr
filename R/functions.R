@@ -50,8 +50,8 @@ plus_minus <- function(x) {
   print(pos / length(x))
 
 }
-
-
+x <- c(-10:10)
+plus_minus(x)
 
 
 
