@@ -15,9 +15,30 @@
 #' @export
 #'
 #' @examples
-#' test("Sam")
+#' init_user("Sam")
 #'
-test <- function(x) {
+#'
+
+init_user <- function(x) {
   print(paste0("Hello ", x, " welcome to challengR"))
 }
+
+#' list_questions
+#'
+#' @return List of all available questions
+#' @export
+#'
+#' @examples list_questions()
+list_questions <- function() {
+  names <- list(
+
+  )
+
+  print(names)
+}
+
+
+
+
+
 
